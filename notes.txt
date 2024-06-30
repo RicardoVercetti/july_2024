@@ -1,0 +1,141 @@
+===================================================================================
+
+> Readme file stuff
+
+- Headings
+
+# H1 Heading
+## H2 Heading
+### H3 Heading
+#### H4 Heading
+##### H5 Heading
+###### H6 Heading
+
+- Emphasis
+
+Italic: *italic* or _italic_
+Bold: **bold** or __bold__
+Strikethrough: ~~strikethrough~~
+
+
+- Lists
+
+Unordered Lists => Use -, +, or * to create unordered list items (Eg: - Item 1,  (tab) - subitem 1)
+Ordered Lists => Use numbers followed by a period to create ordered list items: (Eg: 1. Item 1, (tab) 1.subitem 1)
+
+- Links
+
+Create links using the [text](URL) syntax: [OpenAI](https://www.openai.com)
+
+- Images
+
+Insert images using the ![alt text](URL) syntax: ![OpenAI Logo](https://example.com/logo.png)
+
+- Blockquotes
+
+Create blockquotes using the > symbol: > This is a blockquote.
+
+- Code
+
+Inline Code - Use backticks ` to include inline code:This is `inline code`.
+Code Blocks - Use triple backticks ``` or indent code with four spaces to create code blocks: 
+
+- Horizontal Rule
+
+Create a horizontal rule using ---, ***, or ___:
+
+- Tables
+
+Create tables using pipes | and dashes -:
+| Header 1 | Header 2 |
+|----------|----------|
+| Row 1    | Data 1   |
+| Row 2    | Data 2   |
+
+
+- Task Lists
+
+Create task lists using - [ ] for unchecked and - [x] for checked items:
+- [x] Completed task
+- [ ] Incomplete task
+
+===================================================================================
+
+> Python builtins roadmap
+
+1. Start with the Basics
+Learn the Basic Data Types:
+
+    Numbers: int, float, complex
+    Sequences: str, list, tuple, range
+    Mappings: dict
+    Sets: set, frozenset
+    Booleans: bool
+    None: NoneType
+
+Learn Basic Operators:
+
+    Arithmetic operators (+, -, *, /, %, //, **)
+    Comparison operators (==, !=, >, <, >=, <=)
+    Logical operators (and, or, not)
+    Assignment operators (=, +=, -=, etc.)
+    Membership operators (in, not in)
+    Identity operators (is, is not)
+
+2. Explore Built-in Functions
+
+    Learn the most commonly used built-in functions like:
+        Type Conversion: int(), float(), str(), list(), tuple(), set(), dict()
+        Input/Output: print(), input()
+        Math Functions: abs(), round(), max(), min(), sum()
+        Sequence Operations: len(), sorted(), reversed(), enumerate(), zip()
+        Other Useful Functions: type(), isinstance(), id(), dir(), help()
+
+3. Understand Control Flow
+
+    Learn about loops: for, while
+    Learn about conditionals: if, elif, else
+    Learn about exception handling: try, except, finally, raise
+
+4. Learn String Methods
+
+    String operations: concatenation, slicing
+    Common methods: upper(), lower(), strip(), split(), join(), find(), replace()
+
+5. Explore List Methods
+
+    Common list methods: append(), extend(), insert(), remove(), pop(), clear(), index(), count(), sort(), reverse()
+
+6. Understand Dictionary Methods
+
+    Common dictionary methods: keys(), values(), items(), get(), update(), pop(), popitem(), clear()
+
+7. Learn About Sets
+
+    Common set methods: add(), update(), remove(), discard(), pop(), clear(), union(), intersection(), difference(), symmetric_difference()
+
+8. Modules and Libraries
+
+    Learn about commonly used standard library modules:
+        math: Mathematical functions
+        datetime: Date and time manipulation
+        random: Generate random numbers
+        os: Interacting with the operating system
+        sys: System-specific parameters and functions
+        json: JSON data manipulation
+        re: Regular expressions
+        collections: Specialized container datatypes
+
+9. File I/O
+
+    Reading from and writing to files using open(), read(), write(), close()
+    Using context managers (with statement) for file operations
+
+10. Advanced Topics
+
+    Decorators
+    Generators
+    Context Managers
+    Lambda Functions
+    List Comprehensions
+
