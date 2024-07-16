@@ -1,0 +1,35 @@
+---------------------------------------------------------------------------------------------------------------------------------
+
+CALCULUS 
+
+1. Prerequisites
+Before diving into calculus, ensure you have a good understanding of the following topics:
+
+Algebra: Manipulating equations, working with functions, understanding graphs.
+Geometry: Understanding shapes, areas, and volumes.
+Trigonometry: Understanding sine, cosine, tangent, and their applications.
+Precalculus: Concepts such as limits, sequences, and series.
+
+Recommended Resources:
+Khan Academy: Courses on Algebra, Geometry, Trigonometry, and Precalculus.
+PatrickJMT: YouTube channel with tutorials on these topics.
+Books: "Precalculus" by Michael Sullivan, "Algebra and Trigonometry" by Robert F. Blitzer.
+
+2. Foundations of Calculus
+Start with the basics of calculus, focusing on the core concepts of limits and continuity.
+
+Topics to Cover:
+Limits and Continuity
+Understanding limits
+Calculating limits
+Continuity and discontinuity of functions
+
+Recommended Resources:
+Khan Academy: Limits and Continuity.
+Paul's Online Math Notes: Limits and Continuity.
+Books: "Calculus Made Easy" by Silvanus P. Thompson.
+
+
+
+
+
