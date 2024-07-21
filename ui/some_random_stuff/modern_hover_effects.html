@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Document</title>
+    <style>
+        :root {
+            --blue-color: #007bff;
+            --red-color: #ff0055;
+            --purple-color: #b731e5;
+            --background-color: #1c2630;
+        }
+
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+
+       body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: column;
+        gap: 30px;
+        background: #1c2630
+       }
+
+       .btn {
+        position: relative;
+        display: inline-block;
+        padding: 10px 30px;
+        font-size: 1em;
+        background: transparent;
+        border: 2px solid var(--clr);
+        font-weight: 500;
+        border-radius: 40px;
+        cursor: pointer;
+        color: var(--clr);
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        transition: 1s;
+        overflow: hidden;
+       }
+
+       .btn:hover {
+        background: var(--clr);
+        /* color: var(--background-color); */
+        box-shadow: 0px 0px 25px var(--clr),
+        0 0 100px var(--clr),
+        0 0 150px var(--clr);
+       }
+
+       .btn span {
+        position: relative;
+        display: inline-block;
+        transition: transform 0.5s;
+        text-shadow: 0 35px #fff;
+        transform: translateY(0px);
+       }
+
+       .btn:hover span.hover {
+        transform: translateY(-35px);
+       }
+
+       .btn span.hover {
+        transform: translateY(-35px);
+       }
+        
+
+       /* #ff0055 */
+       /* #b731e5 */
+    </style>
+</head>
+<body>
+    <button class="btn" style="--clr: #007bff;"> Hover Me </button>
+    <button class="btn" style="--clr: #ff0055;"> Click here </button>
+    <button class="btn" style="--clr: #b731e5;"> Awsome </button>
+
+
+    <script>
+        let buttons = document.querySelectorAll('.btn');
+        // console.log(buttons);
+        buttons.forEach(button => {
+            let text = button.textContent;
+            // console.log('Text: '+ text);
+            button.innerHTML = '';
+
+            for(let char of text) {
+                let span = document.createElement('span');
+                span.textContent = char === ' ' ? '\u00A0' : char;
+                button.appendChild(span);
+            }
+
+            let spans = button.querySelectorAll("span");
+
+            button.addEventListener('mouseenter', () => {
+                spans.forEach((span, index) => {
+                    setTimeout(() => {
+                        span.classList.add('hover');
+
+                    }, index*10);
+                })
+            })
+            button.addEventListener('mouseleave', () => {
+                spans.forEach((span, index) => {
+                    setTimeout(() => {
+                        span.classList.remove('hover');
+
+                    }, index*10);
+                })
+            })
+            
+        });
+    </script>
+</body>
+</html>

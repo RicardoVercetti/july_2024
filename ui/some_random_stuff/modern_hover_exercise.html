@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Exercise</title>
+    <style>
+        :root {
+            --dark-background: #1a1625;
+            --light-grey: #8b8b8b;
+            --yellow: #FFD12A;
+            --glowing-blue: #00BFFF;
+            --glowing-green: #00FF7F;
+            --glowing-pink: #FF69B4;
+        }
+
+       * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       }
+
+       body {
+        min-height: 100vh;
+        background:  var(--dark-background);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+
+       .container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       }
+
+       .container {
+        width: 90%;
+        height: 90%;
+        padding: 20px 50px;
+        border: 2px solid #FF8C00;
+        border-radius: 20px;
+        /* min-height: 80%;
+        min-width: 80%; */
+        display: flex;
+        align-items: center;
+       }
+
+       button {
+        width: 500px;
+        padding: 20px 30px;
+        border: 2px solid var(--yellow);
+        border-radius: 40px;
+        background: transparent;
+        color: var(--yellow);
+        font-weight: 500;
+        text-transform: uppercase;
+        font-size: 1em;
+        letter-spacing: 0.1em;
+        transition: 0.3s;
+        text-shadow: 0 35px #fff;
+       }
+
+       /* button:hover {
+        box-shadow: 0px 0px 40px var(--yellow);
+       } */
+
+       .glowing-blue {
+        color: var(--glowing-blue);
+        border: 2px solid var(--glowing-blue);
+       }
+
+       .glowing-blue:hover {
+        box-shadow: 0px 0px 40px var(--glowing-blue);
+       }
+
+       .glowing-green {
+        color: var(--glowing-green);
+        border: 2px solid var(--glowing-green);
+       }
+
+       .glowing-green:hover {
+        box-shadow: 0px 0px 40px var(--glowing-green);
+       }
+
+       .glowing-pink {
+        color: var(--glowing-pink);
+        border: 2px solid var(--glowing-pink);
+       }
+
+       .glowing-pink:hover {
+        box-shadow: 0px 0px 40px var(--glowing-pink);
+       }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <button class="glowing-blue">First Button</button>
+        <button class="glowing-green">Second Button</button>
+        <button class="glowing-pink">Third Button</button>
+    </div>
+</body>
+</html>

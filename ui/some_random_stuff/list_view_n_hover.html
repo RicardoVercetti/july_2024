@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transactions</title>
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            min-height: 100vh;
+        }
+
+        .content {
+            margin: 30px 20px;
+            padding: 5% 4%;
+            border: 5px dotted black;
+            min-height: 80vh;
+            border-radius: 10%;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 2rem;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+
+        .list {
+            padding: 30px 0 0 0;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .bars {
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            width: 100%;
+            border: 1px solid palevioletred;
+            border-radius: 5px;
+            /* padding: 10px; */
+            color: palevioletred;
+            transition: 0.3s ease-in-out;
+        }
+
+        .bars:hover {
+            background-color: darkgoldenrod;
+            color: aliceblue;
+            border: red;
+        }
+
+        .button_o {
+            /* margin-left: auto;
+            margin-right: 5px; */
+            height: 90%;
+            border: 1px solid mediumpurple;
+            border-radius: 3px;
+        }
+
+        .text {
+            margin: 10px;
+            flex-grow: 1; /* Allows the text to take up the remaining space */
+        }
+
+        .button_o:last-of-type {
+            margin-right: 5px; /* Positions the last button 5px from the right end */
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Main Heading One </h1>
+
+        <div class="list">
+            <div class="bars">
+                <span class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</span> 
+                <span class="button_o"> Button One </span>
+                <span class="button_o"> Button Two </span>
+            </div>
+          
+        </div>
+        
+    </div>
+    
+</body>
+</html>
