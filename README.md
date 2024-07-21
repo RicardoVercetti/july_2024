@@ -5,7 +5,7 @@
 A repo tracking what I've learned at the month of july 2024
 
 
-## The Agenda
+## The Agenda(Change of plans - don't focus on ML, react native and scrapy that much)
 
 * Built in python methods, objects and functions
 * scrapy project for fun
