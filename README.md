@@ -42,3 +42,7 @@ A repo tracking what I've learned at the month of july 2024
 
 * [Youtube - Machine Learning with Python and Scikit-Learn](https://youtu.be/hDKCxebp88A?si=sdCO8Q2TDM0ZTTsB)
 
+### Change in plan stuff
+
+* [50 java projects](https://www.codewithfaraz.com/article/131/explore-50-java-projects-with-source-code-for-all-skill-levels#14-resume-builder)
+
