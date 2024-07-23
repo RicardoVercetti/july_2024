@@ -1,0 +1,11 @@
+String arqc = "";
+		String amountAuthorized = "000000050000";								// 9F02 - 12n
+		String amountOther = "000000000000";									// 9F03 - 12n
+		String terminalCountryCode = "0356";									// 9F1A - 4n
+		String terminalVerificationResults = "0000000000";						// 95	- 10n
+		String transactionCurrencyCode = "0356";								// 5F2A - 4n
+		String transactionDate = "240716";										// 9A	- 6n
+		String transactionType = "01";											// 9C	- 2n
+		String UnpredictableNumber = "78018C7C";								// 9F37	- 8n
+		String applicationInterchangeProfile = "7C00";							// 82	- 4n
+		String applicationTransactionCounter = "00B6";							// 9F36	- 4n
