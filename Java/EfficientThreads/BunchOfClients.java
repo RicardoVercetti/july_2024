@@ -55,7 +55,7 @@ public class BunchOfClients {
     public static void main(String[] args) throws InterruptedException {
         BunchOfClients boc = new BunchOfClients(4, "localhost", 1680);
         boc.sendData();
-        // Thread.sleep(5000);
+        Thread.sleep(5000);
         // boc.sendSpecificData("SpEcIfIc dAtA".getBytes());
         boc.sendSpecificData(SampleIsoBytes1.set1);
         boc.closeAllConnections();
